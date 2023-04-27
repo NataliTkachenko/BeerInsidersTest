@@ -1,0 +1,26 @@
+div.g2-tooltip {
+  width: 95px !important;
+  height: 70px !important;
+  border-radius: 20px !important;
+  background-color: #464748 !important;
+  color: #fff !important;
+  padding: 10px !important;
+  font-size: 18px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative;
+}
+
+div.g2-tooltip:after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50px !important;
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #464748 !important;
+  transform: rotate(45deg) !important;
+}
+
+
